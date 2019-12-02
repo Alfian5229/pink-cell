@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahData">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tambah_data_handphone"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgview"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/gambar_hp" />
+
+        <Button
+            android:id="@+id/bpicturefromgallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ambil_photo_dari_gallery" />
+
+        <Button
+            android:id="@+id/bpicturefromphoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ambil_photo_langsung"/>
+
+        <EditText
+            android:id="@+id/edmerk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/merk"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:autofillHints="@string/merk"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/edtype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/type"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:autofillHints="@string/type"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/edram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ram"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:autofillHints="@string/ram"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/edinternal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/internal"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:autofillHints="@string/internal"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/edkelengkapan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/kelengkapan"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:autofillHints="@string/kelengkapan"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/edjaringan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/jaringan"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:autofillHints="@string/jaringan"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/eddeskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/deskripsi"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:autofillHints="@string/deskripsi"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/edhargajual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/harga_jual"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:autofillHints="@string/harga_jual"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/edhargajualmaks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/harga_jual_maksimal"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:autofillHints="@string/harga_jual_maksimal"
+            tools:targetApi="o" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tambah"
+            android:onClick="tambahDataHP"/>
+
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/clear"
+             android:onClick="clearData"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

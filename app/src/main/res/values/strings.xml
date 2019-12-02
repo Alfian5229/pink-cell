@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Pink Cell</string>
+    <string name="action_about">Tentang</string>
+    <string name="merk">Merk</string>
+    <string name="type">Type</string>
+    <string name="tambah_data_handphone">Tambah Data Handphone</string>
+    <string name="tambah">Tambah</string>
+    <string name="ambil_photo_langsung">Ambil Photo Langsung</string>
+    <string name="ambil_photo_dari_gallery">Ambil Photo Dari Gallery</string>
+    <string name="gambar_hp">Gambar HP</string>
+    <string name="ram">Ram</string>
+    <string name="internal">Internal</string>
+    <string name="kelengkapan">Kelengkapan</string>
+    <string name="jaringan">Jaringan</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="harga_jual">Harga Jual</string>
+    <string name="harga_jual_maksimal">Harga Jual Maksimal</string>
+    <string name="delete">Hapus Data</string>
+    <string name="kosong">Tidak ada data.\n Klik tombol tambah untuk tambah data.</string>
+    <string name="cari">Cari</string>
+    <string name="pink_cell">PINK CELL</string>
+    <string name="version">Version 0.5B</string>
+    <string name="update_data_handphone">Update Data Handphone</string>
+    <string name="clear">Clear</string>
+    <string name="update_data">Update Data</string>
+    <string name="rp">Rp. -</string>
+    <string name="memperbesar">(klik gambar untuk memperbesar)</string>
+</resources>
